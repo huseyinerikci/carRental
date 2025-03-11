@@ -50,7 +50,7 @@
 
   /* START: Hero styles */
   .hero {
-    @apply flex xl:flex-row flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
+    @apply flex xl:grid xl:grid-cols-7 flex-col gap-5 relative z-0 max-w-[1440px] mx-auto;
   }
 
   .hero-title {
@@ -264,6 +264,6 @@
 }
 
 .pagination .previous,
-.pagination next {
+.pagination .next {
   font-weight: bold;
 }
